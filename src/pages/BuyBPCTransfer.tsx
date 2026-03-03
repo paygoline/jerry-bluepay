@@ -50,7 +50,7 @@ const BuyBPCTransfer = () => {
       </div>
 
       <div className="flex flex-col items-center p-6 mb-6">
-        <h1 className="text-4xl font-bold mb-2">NGN 6,500</h1>
+        <h1 className="text-4xl font-bold mb-2">NGN 10,000</h1>
         <p className="text-gray-600">{email}</p>
       </div>
 
@@ -68,11 +68,11 @@ const BuyBPCTransfer = () => {
         <div className="mb-4">
           <p className="text-gray-500 text-sm">Amount</p>
           <div className="flex justify-between items-center">
-            <p className="text-2xl font-bold">NGN 6500</p>
+            <p className="text-2xl font-bold">NGN 10000</p>
             <Button 
               variant="default" 
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
-              onClick={() => handleCopy("6500", "Amount")}
+              onClick={() => handleCopy("10000", "Amount")}
             >
               <Copy size={18} />
               Copy
@@ -83,11 +83,11 @@ const BuyBPCTransfer = () => {
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Account Number</p>
           <div className="flex justify-between items-center">
-            <p className="text-2xl font-bold">8902612254</p>
+            <p className="text-2xl font-bold">5226694928</p>
             <Button 
               variant="default" 
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
-              onClick={() => handleCopy("8902612254", "Account Number")}
+              onClick={() => handleCopy("5226694928", "Account Number")}
             >
               <Copy size={18} />
               Copy
@@ -97,12 +97,12 @@ const BuyBPCTransfer = () => {
 
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Bank Name</p>
-          <p className="text-2xl font-bold">PALMPAY</p>
+          <p className="text-2xl font-bold">MONIEPOINT MFB</p>
         </div>
 
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Account Name</p>
-          <p className="text-2xl font-bold">EBUKA SABASTINE</p>
+          <p className="text-2xl font-bold">SAVIOUR EDET CYRIL</p>
         </div>
       </div>
 
