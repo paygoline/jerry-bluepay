@@ -8,7 +8,7 @@ const Support = () => {
   const navigate = useNavigate();
 
   const handleLiveChatClick = () => {
-    window.open('https://t.me/Bluepay2025_bot', '_blank');
+    window.open('https://t.me/Bluepay112', '_blank');
   };
 
   return (
@@ -55,7 +55,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-3 bg-blue-600 hover:bg-blue-700 py-2 text-sm"
-              onClick={() => window.open('https://t.me/Officialbluepay')}
+              onClick={() => window.open('https://t.me/Bluepay112')}
             >
               Open Telegram
             </Button>
@@ -73,7 +73,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-3 bg-blue-600 hover:bg-blue-700 py-2 text-sm"
-              onClick={() => window.open('https://wa.me/2348189668037')}
+              onClick={() => window.open('https://chat.whatsapp.com/JZaFY2GpaEZDaAjZHQ3aLR?mode=hq1tcli')}
             >
               Chat on WhatsApp
             </Button>
