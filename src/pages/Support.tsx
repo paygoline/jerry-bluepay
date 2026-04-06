@@ -37,7 +37,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-3 bg-blue-600 hover:bg-blue-700 py-2 text-sm"
-              onClick={() => window.open('mailto: bluepaycustomerservice25@gmail.com')}
+              onClick={() => window.open('mailto:managementcompany925@gmail.com')}
             >
               Contact via Email
             </Button>
